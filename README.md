@@ -1,7 +1,7 @@
 # Gas Tank
 
-Open reference material for the σ-Labs / Ellen Capital **Gas Tank**, the contract that supplies the
-keepers' EOAs with each chain's native token for gas.
+Open reference material for the σ-Labs **Gas Tank**, the contract that supplies the keepers' EOAs
+with each chain's native token for gas.
 
 Each keeper strategy signs its transactions with its own EOA, so no two strategies share a nonce
 sequence. Every one of those EOAs needs gas on every chain it runs on. The tank gives the team a
